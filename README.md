@@ -71,6 +71,12 @@ nano update_prayer_times.py
 
 8. Schedule the Script:
 * Open the crontab file for editing using the `crontab -e` command in the terminal.
+
+
+Reference
+https://www.smartazan.com/how-azan-for-google-home-raspberry-pi
+https://youtu.be/4Xgf3jIRqKo
+
 * Add a new line to schedule the execution of your Python script at a specific time. For example, to run the script every day at midnight, add the following line:
 ```
 0 0 * * * python3 /path/to/update_prayer_times.py
